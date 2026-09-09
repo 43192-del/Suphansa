@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<title>work08 html layout</title>
+<meta charset="utf-8">
+<style>
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+.container{
+    width:1024px;
+    margin:0 auto;
+}
+header{
+    background-image:url(images/mysubject.jpg);
+    height:256px;
+}
+nav{
+    background-color:#FFE5E5;
+    flex:1;
+
+}
+article{
+    background-color:#FCCAF6;
+    padding:10px;
+    flex:3;
+}
+footer{
+    background-color:skyblue;
+    padding:25px;
+    text-align:center;
+    color:#eee;
+}
+section{
+    display:flex;
+}
+a:link{
+         color:green;
+         text-decoration:none;
+     background-color:#eee;
+     display:block;
+     width:100%;
+         padding:10px;
+}
+a:visited{
+         color:pink;
+}
+a:hover{
+         color:purple;
+         background-color:#8291E8;
+}
+a:active{
+         color:blue;
+}
+
+</style>
+
+
+</head>
+<body>
+<div class="container">
+<header></header>
+<section>
+<nav>
+<ul style="list-style-type:none">
+<li><a href="index.html">คำนาม (Noun)</a></li>
+<li><a href="page2.html">คำกริยา (Verb)</a></li>
+<li><a href="page3.html">Grammar (ไวยากรณ์) </a></li>
+<li><a href="page4.html">Adjective (คำคุณศัพท์)</a></li>
+<li><a href="page5.html">Adverb หรือ คำวิเศษณ์</a></li>
+</ul>
+</nav>
+<article>
+<h1>Adverb หรือ คำวิเศษณ์</h1>
+<img src=images/p5.jpg>
+<p>คือ เป็นคนละส่วนกันในหลักไวยากรณ์ โดย Verb คือคำแสดงการกระทำหรือสภาพ (เช่น วิ่ง กิน เป็น) ส่วน Adverb คือคำที่ทำหน้าที่ ขยาย Verb หรือขยายคำอื่นๆ อีกที </p>
+</article>
+</section>
+<footer>
+<p>จัดทำโดยนางสาวสุพรรณษา อ่อนศรี ชั้นม.6/7 เลขที่ 37 <br>โรงเรียนรัตนราฎร์บำรุง</p>
+</footer>
+</div>
+</body>
+</html>
